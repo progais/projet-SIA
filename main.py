@@ -31,7 +31,7 @@ def get_parameters():
 
 def main():
     os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
-    args = get_parameters() #params_hps
+    args = get_parameters()
     director = Director(args)
     if args.mode == 'train':
         director.train()
