@@ -9,7 +9,7 @@ def get_parameters():
     parser = argparse.ArgumentParser()
     parser.add_argument('--gpu', default='0', type=str) 
     parser.add_argument('--model_dir', '--md', 
-                        default='C:\\Users\\aisat\\Projet SIA\\seq2seq-git\\experiments\\attention\\e2f',
+                        default='.\experiments\attention\e2f',
                         type=str)
     
     parser.add_argument('--mode', '--m', default='train', type=str)
