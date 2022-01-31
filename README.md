@@ -4,7 +4,9 @@
 ## English to French translation with a streamlit tutorial
 
 ### Quick Start Streamlit tutorial
+```
 Run : streamlit run streamlit_NLP.py
+```
 
 ### Quick Start NLP translation
 ```
