@@ -1,0 +1,18 @@
+{
+  "teacher_forcing_ratio": 0.5,
+  "hidden_size": 256,
+  "max_length": 12,
+  "val_split": 0.2,
+  "test_split": 0.1,
+  "sample_num": 2,
+  "batch_size": 64,
+  "num_workers": 8,
+  "learning_rate": 0.001,
+  "num_epochs": 1,
+  "print_every": 50,
+  "log_summary_every": 10,
+  "dropout_rate": 0.5,
+  "s2t": "e2f",
+  "data_dir": "./data",
+  "decoder_type": "vanilla"
+}
